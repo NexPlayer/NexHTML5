@@ -1,7 +1,7 @@
 <a id="introduction-top"> </a>
 
 
-<img width="30%" text-align="center" src="./_images/logo.png" alt="logo of docsify-awesome repository" >
+<img width="30%" text-align="center" src="./_images/logo.png" alt="Nexplayer logo" >
 
 ***
 
