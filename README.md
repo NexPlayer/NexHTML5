@@ -12,7 +12,7 @@
 NexPlayer™ provides a media player for PS4 which will later be available across all HTML5 devices. It includes support for HLS, DASH, and progressive download.
 
 <div class="listsContainer">
-<a href="https://nexplayer.github.io/TizenWebOS/#/" class="hideText"> Full Documentation </a>
+<a href="https://nexplayer.github.io/NexHTML5/#/" class="hideText"> Full Documentation </a>
 <div class="blocks">
 <h5 class="titleBlocks">VIDEO DELIVERY FORMATS</h5>
   <ul class="list">  
