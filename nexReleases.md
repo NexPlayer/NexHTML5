@@ -4,12 +4,23 @@
 
 Each version of the SDK is hosted in a CDN to allow faster and more efficient developments. Optionally, the library can be downloaded and hosted on a custom server.
 
+#### Version 1.2.1
+
+```
+https://nexplayer.nexplayersdk.com/NexHTML5/1.2.1_20210729/nexplayer.js
+```
+
+**Bug fixes:**
+  - Fixed thumbails width and height properties as they were swapped.
+
+Date: July 29th 2021
+
 #### Version 1.2.0
 
 ```
 https://nexplayer.nexplayersdk.com/NexHTML5/1.2.0_20210723/nexplayer.js
 ```
-New features:
+**New features:**
   - Added SSAI support for PS4. It can be used through the property 'ssaiMediaTailor'.
 
     ```js
