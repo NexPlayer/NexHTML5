@@ -178,7 +178,7 @@ Listens for ads events.
 
 ##### player.init(configObj)
 
-Initialize the player with the config Object given.
+Initialize the player with the config object given.
 
 **Type**: instance method of  [<code>Player</code>](#Player)
 

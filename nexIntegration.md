@@ -72,15 +72,24 @@ To integrate NexPlayer™ into your project you must complete the following step
 ...
 </body>
 ```
-- The player should be initialized by entering the previous div to the init method:
-```js
-    var player = new nexplayer.NexPlayer();
-    player.init({
-        key: 'ENTER YOUR LICENSE KEY HERE',
-        div: document.getElementById("player"),
-        src: 'https://livesim.dashif.org/dash/vod/testpic_2s/multi_subs.mpd',
-    });
-```
+- The player should be initialized by entering the previous div to the init or setup methods:
+    > nexplayer.Setup
+    ```js
+        var player = nexplayer.Setup({
+            key: 'ENTER YOUR LICENSE KEY HERE',
+            div: document.getElementById("player"),
+            src: 'https://livesim.dashif.org/dash/vod/testpic_2s/multi_subs.mpd',
+        });
+    ```
+    > player.init
+    ```js
+        var player = new nexplayer.NexPlayer();
+        player.init({
+            key: 'ENTER YOUR LICENSE KEY HERE',
+            div: document.getElementById("player"),
+            src: 'https://livesim.dashif.org/dash/vod/testpic_2s/multi_subs.mpd',
+        });
+    ```
 
 ## Configuration
 

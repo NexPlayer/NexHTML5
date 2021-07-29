@@ -9,7 +9,7 @@
 
 ## Abstract
 <!-- NexPlayer™ provides a media player across all HTML5 compatible devices. It includes support for HLS, DASH, and progressive download. -->
-NexPlayer™ provides a media player for PS4 which will later be available across all HTML5 devices. It includes support for HLS, DASH, and progressive download.
+NexPlayer™ provides a player SDK for PS4 which will later be available across all HTML5 devices. It includes support for HLS, DASH, and progressive download.
 
 <div class="listsContainer">
 <a href="https://nexplayer.github.io/NexHTML5/#/" class="hideText"> Full Documentation </a>
@@ -58,8 +58,7 @@ NexPlayer™ provides a media player for PS4 which will later be available acros
   <ul class="list">  
       <li>AES </li>     
       <li>Custom HTTP headers</li>
-      <li>PlayReady DRM </li>   
-      <li>Widevine DRM </li>     
+      <li>PlayReady DRM </li>
   </ul>
 </div>
 </div>
