@@ -12,6 +12,7 @@ https://nexplayer.nexplayersdk.com/NexHTML5/1.2.2_20210730/nexplayer.js
 
 **Bug fixes:**
   - Renamed Frame object "canvas" property to "thumbnail".
+  - Fixed permanent pending promise when fetching thumbnails that lead to "undefined" resolutions.
 
 Date: July 30th 2021
 
