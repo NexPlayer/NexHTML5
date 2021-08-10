@@ -22,7 +22,7 @@ https://nexplayer.nexplayersdk.com/NexHTML5/1.2.3_20210810/nexplayer.js
     * **isCurrentAssetAd()**: boolean → indicates whether the current asset playing is an ad or not; 
     * **isCurrentAssetMuted()**: boolean → returns whether the ad or the main content is muted or not.
 
-- Added a new event, “bufferType”. this new event will be fired when a buffering event occurs and it specifies what type of buffering occurred ("Connection", "Seek", "Initial", "Background").
+- Added a new event, “bufferType”. this new event will be fired when a buffering event occurs and it specifies what type of buffering occurred ("Connection", "Seek", "Initial", "Background"). More info about events <a href="https://nexplayer.github.io/NexHTML5/#/nexAPI?id=player-events">here<a>.
 
 **Bug fixes:**
 - Fixed non-resolving promises which lead to out of memory errors when fetching thumbnails
