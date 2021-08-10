@@ -105,6 +105,7 @@ There are a substantial number of customizable options for NexPlayer™ includin
         NexCallback:OptionalDRMCallbackForFairPlay
     }], // Optional
     addRequestFilter: Function, // Optional, used for give filters to the drm request
+    adsParamsToEncode: Array<string>, // Optional, used to encode adURL parameters
     adURL: string, // Optional
     autoplay: true, // Optional
     callbacksForPlayer: callback, // Optional callback called with the player instances

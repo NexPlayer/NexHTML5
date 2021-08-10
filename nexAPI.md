@@ -37,8 +37,8 @@
  - [getCurrentTime()](#getcurrenttime) ⇒ number
  - [getCurrentTrack()](#getcurrenttrack) ⇒ [Track](#track-object)
  - [getDuration()](#getduration) ⇒ number
- - [getQualityLevels()](#getqualitylevels) ⇒ array
- - [getSubtitles()](#getsubtitles) ⇒ array
+ - [getQualityLevels()](#getqualitylevels) ⇒ Array
+ - [getSubtitles()](#getsubtitles) ⇒ Array
  - [getThumbnailAt()](#getthumbnailat) ⇒ Promise
  - [getThumbnails()](#getthumbnails) ⇒ [Array\<Frame\>](#frame)
  - [getTracks()](#gettracks) ⇒ [Array\<Track\>](#track)
@@ -115,6 +115,7 @@ Creates and initializes the player.
 | src | <code>string</code> | URL of the video to be played. |
 | drm | <code>NexPlayerDRMOptions</code> | Contains an object of DRM information. By default it's set to null. |
 | adURL | <code>string</code> | Contains an object of DRM information. By default it's set to null. |
+| adsParamsToEncode | <code>Array<string></code> | Array of strings specifying the parameters in the ad URL to be encoded. |
 | autoplay | <code>boolean</code> | Determines if the video must start playing or paused. True by default. |
 | callbacksForPlayer | <code>Function</code> | Used for retrieving the NexPlayer instance and video element. This is necessary for getting the instance and use the NexPlayer API. |
 | captionDisplayer | <code>ICaptionsDisplayer</code> | Used to provide a custom CaptionDisplayer. Tihs allows to implement the internal logic for the captions. |
@@ -251,7 +252,7 @@ Destroy the player
 Gets the available audio streams.
 
 **Type**: instance method of [<code>Player</code>](#Player)   
-**Returns**: An array<AudioStream> - which contains the available audio streams.
+**Returns**: An Array<AudioStream> - which contains the available audio streams.
 
 <a id="getcurrentaudiotrack"> </a>
 
@@ -300,12 +301,12 @@ Returns the duration taking into account isUTC (if isUTC is true, getDuration's 
 
 <a id="getqualitylevels"> </a>
 
-##### player.getQualityLevels() ⇒ array
+##### player.getQualityLevels() ⇒ Array
 
 Gets the video quality levels array.
 
 **Type**: instance method of [<code>Player</code>](#Player)   
-**Returns**: array - quality levels array info
+**Returns**: Array - quality levels array info
 
 <a id="getsubtitles"> </a>
 
@@ -750,8 +751,9 @@ We have events to handle some different kind of player events. List of player ev
 * **timeupdate**: Event launched when the video element duration changes.
 * **loadstart**: Event launched when the player starts loading.
 * **loadeddata**: Event launched when the manifest is loaded.
-* **canplay**: Event lauched when the player is ready to play.
-* **buffering**: Event lauched when the player is buffering.
+* **canplay**: Event launched when the player is ready to play.
+* **buffering**: Event launched when the player is buffering.
+* **bufferType**: Event launched indicating what type of buffering happened: "Connection", "Initial", "Seek" or "Background".
 * **videofirstquartile**:  Event is fired when the 25% of the video’s duration has been reached.
 * **videomidpoint**: Event is fired when the 50% of the video’s duration has been reached.
 * **videothirdquartile**: Event is fired when the 75% of the video’s duration has been reached.
