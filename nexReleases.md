@@ -27,7 +27,7 @@ https://nexplayer.nexplayersdk.com/NexHTML5/1.2.3_20210810/nexplayer.js
 **Bug fixes:**
 - Fixed non-resolving promises which lead to out of memory errors when fetching thumbnails
 
-Date: August 9th 2021
+Date: August 10th 2021
 
 #### Version 1.2.2
 
