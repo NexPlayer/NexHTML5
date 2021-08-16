@@ -23,7 +23,6 @@
  - [play()](#play)
  - [pause()](#pause)
  - [seek(value)](#seek)
- - [isSeeking()](#isseeking)
  - [Environment](#environment)
  - [DefaultConfig](#defaultconfig)
  - [destroy()](#destroy)
@@ -50,6 +49,9 @@
  - [getVolume()](#getvolume) ⇒ number
  - [getMute()](#getmute) ⇒ boolean
  - [getLogger()](#getlogger) ⇒ Logger
+ - [isCurrentAssetAd()](#iscurrentassetad) ⇒ boolean
+ - [isCurrentAssetMuted()](#iscurrentassetmuted) ⇒ boolean
+ - [isSeeking()](#isseeking) ⇒ boolean
 
 ##### Setters
 
@@ -415,6 +417,30 @@ Returns the logger of the Player.
 
 **Type**: instance method of  [<code>Player</code>](#Player)  
 **Returns**: Object
+
+<a id="iscurrentassetad"></a>
+
+##### player.isCurrentAssetAd()
+
+Returns a boolean, true if the current playing asset is an ad, false if not.
+
+**Type**: instance method of  [<code>Player</code>](#Player)
+
+<a id="iscurrentassetmuted"></a>
+
+##### player.isCurrentAssetMuted()
+
+Returns a boolean, true if the current playing asset is muted, false if not.
+
+**Type**: instance method of  [<code>Player</code>](#Player)
+
+<a id="isseeking"></a>
+
+##### player.isSeeking()
+
+Returns a boolean, true if the player is seeking and false if not.
+
+**Type**: instance method of  [<code>Player</code>](#Player)
 
 ***
 
